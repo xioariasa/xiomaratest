@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Repository</id>
+    <version>1.0.0</version>
+    <authors>Repository</authors>
+    <owners>Repository</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.0">
+        <dependency id="Models" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="EasyCaching.InMemory" version="0.9.0" exclude="Build,Analyzers" />
+        <dependency id="EasyCaching.Redis" version="0.9.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\jdpin\source\repos\MasivianTestApp\Repository\bin\Debug\netcoreapp3.0\Repository.dll" target="lib\netcoreapp3.0\Repository.dll" />
+  </files>
+</package>
